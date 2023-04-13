@@ -1,0 +1,22 @@
+[ 06 ] AOP(Aspect Oriented Programming)
+1. AOP란?
+  : AOP 방법은 핵심 기능과 공통 기능을 분리시켜놓고, 공통 기능을 필요로 하는 핵심 기능들에서 사용하는 방식입니다.
+2. AOP와 관련된 용어
+  - Aspect : 공통기능. 예를 들어 로깅 같은 기능 자체에 대한 용어
+  - Advice : 공통기능을 구현한 객체 메서드
+  - Join Point : 핵심 기능. 공통기능을 적용할 수 있는 대상
+  - PointCuts : Join Point의 부분으로 실제 Adivce를 적용해야 되는 부분
+  - Proxy : Advice가 적용되었을 때 만들어지는 객체
+  - Weaving : Advice와 target이 결합되어서 프록시 객체를 만드는 과정 (advice를 핵심 기능에 적용하는 행위)
+3. 스프링에서 AOP 구현
+  - AOP의 구현은 proxy를 이용한다.
+  - Weaving 방식은 두가지 : ① XML을 이용 ② @Aspect 어노테이션 이용
+4. XML 기반으 AOP 구현
+  - 작업 순서 : ① Pom.xml에서 의존 설정 ② Proxy 클래스 제작 (공통기능의 클래스 제작 - Adivce 역할 클래스) ③ XML 설정 파일에 Aspect 설정
+5. @Aspect를 이용한 AOP구현
+  - 작업 순서 : ① 의존 설정 ② @Aspect 어노테이션을 이용한 Aspect class 제작 (@pointcut @Around @Before @AfterReurning @AfterThrowing @After) ③ XML 설정 파일에 <aop:aspectj-autoproxy/>설정
+6. AspectJ Pointcut 표현식
+  : Pointcut을 지정할 때 사용하는 표현식으로 AspectJ 문법을 사용 합니다. (* : 모든 | . : 현재 | .. : 0개 이상)
+  ① execution ② within ③ bean
+
+ 
