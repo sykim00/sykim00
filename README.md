@@ -1,6 +1,6 @@
  # LINK
  ### 1st PERSONAL PROJECT <a href="https://github.com/sykim00/kinterior.git"><img src="https://img.shields.io/badge/KINTERIOR[인테리어사이트/견적문의시스템]-FF0000?style=for-the-badge&logo=github&logoColor=white"/></a>
- ### 2nd TEAM PROJECT  <a href="https://github.com/Alipheese16th/bowow.git"><img src="https://img.shields.io/badge/PRONECT[반려동물용품사이트]-009900?style=for-the-badge&logo=github&logoColor=white"/></a>
+ ### 2nd TEAM PROJECT  <a href="https://github.com/Alipheese16th/bowow.git"><img src="https://img.shields.io/badge/PROJECT[반려동물용품사이트]-009900?style=for-the-badge&logo=github&logoColor=white"/></a>
  ### 공부일지 <a href="https://github.com/95dongju/webPro/tree/main/note"><img src="https://img.shields.io/badge/공부일지-0000FF?style=for-the-badge&logo=github&logoColor=white"/></a>
 
  # 📚 SKIL
